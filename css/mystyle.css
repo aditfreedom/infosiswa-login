@@ -1,0 +1,143 @@
+@font-face {
+	font-family: modern;
+	src: url(../css/Orbitron-Black.ttf);
+  }
+
+.jumbotron{
+    background-color: white;
+    background-size: cover;
+    height: 830px;
+    text-align: center;
+    margin-top: -150px;
+    margin-bottom: 0%;
+}
+
+.jumbotron hr{
+    border-color: #ff6600;
+    margin-left: 0%;
+    width: 180px;
+    border-width: 5px;
+}
+
+.jumbotron .display-4{
+    margin-top: 150px;
+    font-size: 40px;
+
+}
+
+.navbar .collapse .nav-item{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.navbar .navbar-brand{
+    font-family: modern;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand:hover{
+    transition: color 0.5s ease;
+    color:#242424 !important;
+
+}
+
+
+.navbar .navbar-nav li a{
+    color: rgb(24, 24, 24) !important;
+}
+
+.navbar .navbar-nav li a:hover{
+    transition: color 0.5s ease;
+    color:#ffffff !important;
+
+}
+
+.navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    box-shadow: 0px 0px 12px 0px rgb(56, 56, 56);
+  }
+
+
+
+body {
+	font-family               : Verdana;
+	font-size                 : 11px;
+	color                     : #000000;
+	background-color          : #FFFFFF;
+}
+
+tr, td {
+    font-family               : Verdana;
+	font-size                 : 11px;
+	border-collapse    : collapse;
+}
+input, textarea{
+    margin           : 1px;
+	font-size        : 11px;
+	font-family      : Verdana;
+	color            : #000000;
+	background-color : #FFFFFF;
+
+}
+option, select {
+    margin           : 1px;
+	font-size        : 11px;
+	font-family      : Verdana;
+	color            : #000000;
+	background-color : #FFFFFF;
+}
+a, A:link, a:visited, a:active {
+    color           : #000000;
+    font-weight     : bold;
+    font-family     : Verdana;
+    font-size       : 11px ;
+}
+A:hover {
+    color           : #B20B0B;
+    text-decoration : none;
+    font-family     : Verdana;
+    font-size       : 11px
+}
+A.headerlink {
+    margin           : 1px;
+	font-size        : 11px;
+	font-family      : Verdana;
+	color       : #FFFFFF;
+	
+}
+.but{
+    cursor:pointer;
+    border:outset 1px #ccc;
+    background:#999;
+    color:#666;
+    font-weight:bold;
+    padding: 1px 2px;
+    background:url(formbg.gif) repeat-x left top;
+}
+.header {
+    border:outset 1px #ccc;
+    background:#999;
+    color:#FFFFFF;
+    font-weight:bold;
+    padding: 1px 2px;
+    background:url(formbg2.gif) repeat-x left top;
+    border-collapse    : collapse;
+    font-size        : 12px;
+}
+.tab {
+    font-family               : Verdana;
+	font-size                 : 11px;
+	color                     : #000000;
+	background-color          : #FFFFFF;
+	border            : groove 2px #666666;
+	border-collapse    : collapse;
+}
+.h {
+		background-color:#565656;
+		border-collapse    : collapse;
+		color:#FFFFFF;
+    	font-weight:bold;
+	}
